@@ -52,6 +52,8 @@ This project involves:
 
 ---
 ## 📂 Repository Structure For the full project layout, see [docs/repository_structure.md](docs/repository_structure.md).
+.
+).
 
 ---
 ## 🛠️ Important Links & Tools
