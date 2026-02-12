@@ -49,12 +49,6 @@ This project involves:
   - Customer purchasing behavior  
   - Product performance metrics  
   - Sales trends over time  
-
----
-## 📂 Repository Structure For the full project layout, see [docs/repository_structure.md](docs/repository_structure.md).
-.
-).
-
 ---
 ## 🛠️ Important Links & Tools
 
