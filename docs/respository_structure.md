@@ -1,4 +1,4 @@
-'''
+```
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets (ERP & CRM)
@@ -21,4 +21,4 @@ data-warehouse-project/
 ├── LICENSE                             # License information
 ├── .gitignore                          # Files/directories to ignore in Git
 └── requirements.txt                    # Dependencies
-'''
+```
