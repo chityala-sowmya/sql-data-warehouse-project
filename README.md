@@ -1,2 +1,118 @@
-# sql-data-warehouse-project
-Building a modern data warehouse with SQL Server,including ETL processes,data modeling, and analytics.
+# Data Warehouse & Analytics Portfolio Project
+
+Welcome to my **Data Warehouse & Analytics Portfolio Project** 🚀  
+This repository documents my hands-on journey in building a modern data warehouse and analytics solution. As a student learning **data engineering and analytics**, I wanted to experience how real-world projects are structured in industry — from raw data ingestion to actionable insights.
+
+This project demonstrates my ability to:
+- Design scalable **data architecture** using Medallion layers (Bronze, Silver, Gold)
+- Build **ETL pipelines** for extracting, transforming, and loading data
+- Develop **fact and dimension tables** optimized for analytics
+- Deliver **SQL-based reporting** to uncover business insights
+
+---
+
+## 🏗️ Data Architecture
+
+The project follows the **Medallion Architecture**:
+
+1. **Bronze Layer**: Raw data ingestion from ERP & CRM CSV files into SQL Server.  
+2. **Silver Layer**: Data cleansing, standardization, and normalization for consistency.  
+3. **Gold Layer**: Business-ready star schema models for reporting and analytics.  
+
+---
+
+## 📖 Project Overview
+
+This project involves:
+
+- **Data Engineering**: ETL pipelines to move data across layers.  
+- **Data Modeling**: Star schema design with fact and dimension tables.  
+- **Analytics & Reporting**: SQL queries to analyze customer behavior, product performance, and sales trends.  
+
+🎯 Through this project, I strengthened my skills in:
+- SQL Development  
+- ETL Pipeline Design  
+- Data Modeling  
+- Analytics & Reporting  
+
+---
+
+## 🚀 Project Requirements
+
+### Data Engineering
+- Import ERP & CRM datasets (CSV format) into SQL Server.  
+- Cleanse and resolve data quality issues.  
+- Integrate sources into a unified analytical model.  
+
+### Analytics
+- Write SQL queries to analyze:
+  - Customer purchasing behavior  
+  - Product performance metrics  
+  - Sales trends over time  
+
+---
+
+## 📂 Repository Structure
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets (ERP & CRM)
+├── docs/                               # Documentation & diagrams
+│   ├── data_architecture.drawio        # Architecture diagrams
+│   ├── data_models.drawio              # Star schema models
+│   ├── data_flow.drawio                # ETL flow diagrams
+│   ├── my_learnings.md                 # My personal notes & reflections
+│
+├── scripts/                            # SQL scripts for ETL & transformations
+│   ├── bronze/                         # Raw ingestion scripts
+│   ├── silver/                         # Cleaning & transformation scripts
+│   ├── gold/                           # Analytical models
+│
+├── tests/                              # Data quality checks
+├── README.md                           # Project overview
+└── requirements.txt                    # Dependencies
+
+
+---
+
+## 🛠️ Important Links & Tools
+
+Everything I used is free and accessible:
+
+- **[Datasets](datasets/):** ERP & CRM CSV files used in the project  
+- **[SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads):** Lightweight server for hosting the SQL database  
+- **[SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16):** GUI for managing and interacting with databases  
+- **[GitHub](https://github.com/):** Version control and collaboration platform  
+- **[DrawIO](https://www.drawio.com/):** For designing architecture diagrams and data models  
+- **[Notion](https://www.notion.com/):** Project management and documentation tool  
+
+---
+
+## 🌱 My Learning Goals
+
+- Gain hands-on experience in **data engineering workflows**  
+- Practice **ETL pipeline development** with SQL Server  
+- Understand **data modeling** and star schema design  
+- Build portfolio-ready projects to showcase my skills  
+
+---
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and share this project with proper attribution.
+
+---
+
+## 🌟 About Me
+
+Hi, I’m **Chityala Sowmya** 👋  
+I’m a student passionate about **data engineering and analytics**, eager to learn and apply industry best practices to real-world projects. This repository is part of my journey to build a strong foundation and showcase my skills to future employers.
+
+📌 Let’s connect:  
+- [LinkedIn](https://www.linkedin.com/in/sowmya-chityala-8b20333a2/)  
+- [GitHub](https://github.com/chityala-sowmya)  
+
+---
+
+✨ *This project reflects my passion for learning, my curiosity to explore data, and my commitment to growing as a data professional.*  
+
