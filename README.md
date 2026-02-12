@@ -52,7 +52,7 @@ This project involves:
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 ```
 data-warehouse-project/
 │
