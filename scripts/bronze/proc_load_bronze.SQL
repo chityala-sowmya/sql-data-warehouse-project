@@ -36,10 +36,9 @@ print '-----------------------------------------------------'
 print 'Loading CRM Tables'
 print '-----------------------------------------------------'
 
-set @start_time = GETDATE();--getdata return exact time
+set @start_time = GETDATE();
 print'>> Truncating Table:bronze.crm_cust_info'
 TRUNCATE TABLE bronze.crm_cust_info;
--- BULK is written to load all csv files into the bronze table
 print'>> Inserting Data Into: bronze.crm_cust_info'
 BULK INSERT bronze.crm_cust_info
 FROM 'P:\sql_data_warehouse_project\datasets\source_crm\cust_info.csv'
